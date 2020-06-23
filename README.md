@@ -1,6 +1,4 @@
-# heraphp
-
-Aergo client interface for PHP
+# heraphp - Aergo client interface for PHP
 
 Supported features:
 
@@ -29,7 +27,11 @@ composer require "tuupola/base58:^1.0"
 composer require simplito/elliptic-php
 ```
 
+## Documentation
+
+A basic documentation is available on the [wiki](https://github.com/aergoio/heraphp/wiki)
+
+
 ## Examples
 
 Check the `example.php`
-
