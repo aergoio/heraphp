@@ -20,6 +20,15 @@ Copy the files to your web site and include the `aergo.php` in your project:
 require 'aergo.php';
 ```
 
+If you want to rebuild the vendor folder, these are the requirements:
+
+```
+composer require grpc/grpc
+composer require google/protobuf
+composer require "tuupola/base58:^1.0"
+composer require simplito/elliptic-php
+```
+
 ## Examples
 
 Check the `example.php`
