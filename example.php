@@ -12,8 +12,7 @@ echo("-- query smart contract --" . PHP_EOL);
 
 $ret = $aergo->QuerySmartContract(
         'AmgLnRaGFLyvCPCEMHYJHooufT1c1pENTRGeV78WNPTxwQ2RYUW7',
-        'hello',
-        '[]');
+        'hello');
 
 if ($ret['success']) {
   echo('Result: ' . $ret['result'] . PHP_EOL);
